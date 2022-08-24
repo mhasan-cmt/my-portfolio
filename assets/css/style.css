@@ -105,7 +105,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    margin:  0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
@@ -185,6 +184,9 @@ img{
     color: var(--first-color);
 }
 @media screen and (max-width: 767px){
+    body{
+        margin:  0 0 var(--header-height) 0;
+    }
     .nav_menu{
         position: fixed;
         bottom: -100%;
@@ -848,6 +850,9 @@ img{
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
+    body{
+        margin:  0 0 var(--header-height) 0;
+    }
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
